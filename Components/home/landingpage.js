@@ -14,7 +14,7 @@ import {
   Fab,
   Divider,
 } from "@mui/material";
-import portfolio from "./assets/Portfolio.jpg";
+import portfolio from "./assets/portfolio.jpg";
 import { FaGithub, FaLinkedin, FaLiraSign } from "react-icons/fa";
 import Image from "next/image";
 import { WorkEx } from "./workEx";
