@@ -14,7 +14,7 @@ import {
   Fab,
   Divider,
 } from "@mui/material";
-import Portfolio from "../assets/Portfolio.jpg";
+import portfolio from "./assets/Portfolio.jpg";
 import { FaGithub, FaLinkedin, FaLiraSign } from "react-icons/fa";
 import Image from "next/image";
 import { WorkEx } from "./workEx";
@@ -44,9 +44,8 @@ const Landingpage = () => {
                   }}
                 >
                   <Image
-                    src={Portfolio}
+                    src={portfolio}
                     width={400}
-                    objectFit="cover"
                     objectPosition="contain"
                     alt="christian"
                     height={320}
