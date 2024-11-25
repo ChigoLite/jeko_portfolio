@@ -27,6 +27,8 @@ const Page = () => {
                 NSX-T (VMWare Network Security virtualization Transformer)
               </li>
               <li>Cloud computing</li>
+              <li>Tanzu kubernetes</li>
+              <li>Ingress</li>
               <li>Terraform</li>
               <li>Aws Cloud Formation</li>
               <li>GitHub actions</li>

@@ -12,18 +12,27 @@ export const WorkEx = () => {
           <li>Senior DevOps Engineer</li>
           <li>CICD pipeline</li>
           <li>Version Control management</li>
+          <li>Cloud infrastructure management</li>
         </ul>
         <h2>Cloudflex Cloud computing Services (5/12/2021 - 20/12/2023)</h2>
 
         <ul>
-          <li>Cloud Engineer/System Administrator</li>
+          <li>Cloud Engineer/DevOps/System Administrator</li>
           <li>VMware, Netwok and Server Administration.</li>
           <li>
             Provisioning and Support for virtual machines, with servers
             (Windows, Linux)
           </li>
+
           <li>Network virtualization (NSX -T)</li>
+          <li>Tanzu kubernetes</li>
+          <li>Ingress</li>
           <li>Server virtualization (NSX-V)</li>
+        </ul>
+        <h2>HiiT Training Institute</h2>
+        <ul>
+          <li>CCNA/AWS Instructor</li>
+          <li>CCNA/AWS Instructor who handles class of different students .</li>
         </ul>
         <h2>Deft-rains (4/5/2020 - 10/2/2021 )</h2>
 
