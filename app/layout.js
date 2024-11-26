@@ -8,15 +8,33 @@ import { ThemeProvider } from "@mui/material";
 import Theme from "@/theme";
 import Footer from "../Components/home/footer";
 import Navbar from "../Components/home/navbar";
-
+import Head from "next/head";
 export const metadata = {
-  title: "AKA CHRISTAIN",
-  description: "A Fulltime DevOp Engineer.",
+  title: "AKA CHRISTIAN",
+  description: "A Fulltime DevOps Engineer.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="description" content={metadata.description} />
+        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="true"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+          rel="stylesheet"
+        />
+        <title>{metadata.title}</title>
+      </head>
       <body>
         <ThemeProvider theme={Theme}>
           <div className="home">
